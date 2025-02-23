@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  background-color: rgb(17, 24, 39);
   line-height: 1.6;
   font-size: 1.6rem;
   font-family: var(--primary-font);
@@ -283,7 +284,7 @@ i {
 }
 
 .courses-header__text {
-  color: #9c9c9c;
+  color: #000000;
   font-size: 1.5rem;
 }
 
@@ -416,21 +417,22 @@ i {
 }
 
 .about-us__subtitle {
-  color: #9c9c9c;
+  color: #e7e6e6;
   font-size: 1.5rem;
 }
 
 .about-us__box {
   display: flex;
   align-items: center;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.1);
   border-radius: 0.5rem;
   margin: 2rem 0;
   padding: 2rem 1.5rem;
+  border: #e8e8e8 px solid;
 }
 
 .about-us__icon {
-  color: #222020a9;
+  color: #c2c0c0a9;
   font-size: 6.5rem;
 }
 
@@ -443,6 +445,11 @@ i {
 .about-us__box-title {
   font-weight: bold;
   font-size: 1.8rem;
+  color: #e7e6e6;
+}
+
+.about-us__box-text{
+  color: #e7e6e69d;
 }
 
 /* Finish About Us Styles */
@@ -452,7 +459,7 @@ i {
 
 .title {
   font-size: 2.3rem;
-  color: #444446;
+  color: #dfdfdf;
   font-weight: bold;
   line-height: 1.2;
   position: relative;
@@ -480,3 +487,26 @@ i {
   background-color: rgba(23, 51, 209, 0.158);
 }
 /* Finish Helper Classes */
+
+
+/* Start Popular Courses Styles */
+.popular, .presell {
+  margin: 5rem 0;
+}
+
+.popular__slider .course-box, .presell__slider .course-box {
+  margin: 0 1.3rem;
+  box-shadow: 0 0 10px rgba(168, 172, 185, 0.3);
+  background-color: #ffffff;
+}
+
+.popular__slider .course-box:hover, .presell__slider .course-box {
+  transform: none;
+}
+
+.presell__slider, .popular__slider {
+  margin: 4rem 0;
+  position: relative;
+}
+
+/* Finish Popular Courses Styles */
