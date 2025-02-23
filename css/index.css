@@ -78,6 +78,8 @@ i {
 
 .main-header__link-icon {
   margin-right: 1rem;
+  display: flex;
+  align-self: center;
 }
 
 /* Start DropDown Styles */
