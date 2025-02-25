@@ -1,186 +1,8 @@
 @import "./variables.css";
 @import "./fonts.css";
 @import './top-bar.css';
-
-/* Start Default Styles */
-
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-}
-
-body {
-  background-color: rgb(17, 24, 39);
-  line-height: 1.6;
-  font-size: 1.6rem;
-  font-family: var(--primary-font);
-  direction: rtl;
-}
-
-*,
-*::after,
-*::before {
-  outline: none;
-  box-sizing: inherit;
-}
-
-a {
-  text-decoration: none;
-  color: var(--dark-color);
-  transition: all 400ms ease;
-}
-
-a:hover {
-  color: #1e83f0;
-}
-
-i {
-  user-select: none;
-}
-
-/* Finish Default Styles */
-
-/* Start Navbar Styles */
-
-.main-header__content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-bottom: 3rem;
-}
-
-.main-header__right {
-  display: flex;
-}
-
-.main-header__menu {
-  display: flex;
-}
-
-.main-header__item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding: 0 1rem;
-}
-
-.main-header__link {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  position: relative;
-  color: var(--white-color);
-}
-
-.main-header__link:hover {
-  color: #7f8187;
-}
-
-.main-header__link-icon {
-  margin-right: 1rem;
-  display: flex;
-  align-self: center;
-}
-
-/* Start DropDown Styles */
-
-.main-header__dropdown {
-  position: absolute;
-  top: 5.5rem;
-  left: 0;
-  right: 0;
-  background-color: var(--dark-color);
-  transition: all 200ms ease-in-out;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
-  border-radius: 0.5rem;
-  width: 24rem;
-  z-index: 1;
-  padding: 1rem 0;
-  border-bottom: 3px solid var(--primary-color);
-  opacity: 0;
-  visibility: hidden;
-}
-
-.main-header__item:hover .main-header__dropdown {
-  opacity: 1;
-  visibility: visible;
-  top: 6.5rem;
-}
-
-.main-header__dropdown-link {
-  display: block;
-  padding: 0.6rem 2rem;
-  font-size: 1.4rem;
-  color: var(--white-color);
-  transition: all 400ms ease;
-}
-
-.main-header__dropdown-link:hover {
-  color: #1e83f0;
-}
-
-/* Finish DropDown Styles */
-
-.main-header__left {
-  display: flex;
-  align-items: center;
-}
-
-.main-header__search-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 4.3rem;
-  height: 4.3rem;
-  border-radius: 0.5rem;
-  background-color: var(--primary-color);
-}
-
-.main-header__search-icon {
-  color: var(--white-color);
-  font-size: 2.2rem;
-}
-
-.main-header__cart-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 4.3rem;
-  height: 4.3rem;
-  border-radius: 0.5rem;
-  margin-right: 1rem;
-  background-color: #f0f2f7;
-}
-
-.main-header__cart-btn:hover {
-  color: #1e83f0;
-}
-
-.main-header__cart-icon {
-  color: var(--dark-color);
-  font-size: 2.2rem;
-  transition: all 400ms ease;
-}
-
-.main-header__profile {
-  display: flex;
-  align-items: center;
-  padding: 0 1.5rem;
-  border: 2px solid var(--primary-color);
-  border-radius: 0.5rem;
-  margin-right: 1rem;
-  transition: all 400ms ease;
-  color: var(--primary-color);
-  height: 4.3rem;
-}
-
-.main-header__profile:hover {
-  background-color: var(--primary-color);
-  color: var(--white-color);
-}
-
-/* Finish Navbar Styles */
+@import "./navbar.css";
+@import "./default.css";
 
 
 
@@ -606,11 +428,25 @@ i {
 /* Start Footer Styles */
 
 .footer-widgets {
-  background-color: #211e3075;
+  background-color: #17132b;
   border-radius: 1rem;
   padding: 4rem 3.5rem;
-  /* position: relative; */
+  position: relative;
   margin-bottom: 5rem;
+}
+
+.footer-widgets::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  height: 4rem;
+  width: 50rem;
+  background-color: rgba(15, 218, 245, 0.815);
+  z-index: -1;
+  bottom: -1.5rem;
+  border-radius: 5rem;
 }
 
 .footer-widgets__title {
@@ -622,11 +458,24 @@ i {
   color: #ffffff;
 }
 
+.footer-widgets__title::before {
+  content: "";
+  position: absolute;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: rgba(15, 218, 245, 0.952);
+  border-radius: 0.7rem;
+  right: 1rem;
+  opacity: 0.3;
+  transform: rotate(45deg);
+}
+
+
 .footer-widgets__text {
   color: #ffffff98;
   padding-left: 3%;
   margin-left: 2%;
-  border-left: white 2px solid;
+  border-left: rgba(255, 255, 255, 0.1) 1px solid;
 }
 
 .footer-widgets__links {
@@ -635,7 +484,7 @@ i {
   /* color: #ffffff; */
   padding-left: 3%;
   margin-left: 2%;
-  border-left: white 2px solid;
+  border-left: rgba(255, 255, 255, 0.1) 1px solid;
 }
 
 .footer-widgets__link {
