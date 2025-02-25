@@ -609,7 +609,7 @@ i {
   background-color: #211e3075;
   border-radius: 1rem;
   padding: 4rem 3.5rem;
-  position: relative;
+  /* position: relative; */
   margin-bottom: 5rem;
 }
 
@@ -624,12 +624,18 @@ i {
 
 .footer-widgets__text {
   color: #ffffff98;
+  padding-left: 3%;
+  margin-left: 2%;
+  border-left: white 2px solid;
 }
 
 .footer-widgets__links {
   display: flex;
   flex-direction: column;
-  color: #ffffff;
+  /* color: #ffffff; */
+  padding-left: 3%;
+  margin-left: 2%;
+  border-left: white 2px solid;
 }
 
 .footer-widgets__link {
