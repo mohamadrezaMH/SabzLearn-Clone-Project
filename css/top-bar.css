@@ -3,7 +3,8 @@
 .top-bar {
     color: var(--dark-color);
     padding: 2rem 0;
-    background-color: #f0f2f7;
+    /* background-color: #f0f2f7; */
+    border-bottom: 1px rgba(255, 255, 255, 0.349) solid;
   }
   
   .top-bar__content {
@@ -21,7 +22,7 @@
   }
   
   .top-bar__link {
-    color: var(--dark-color);
+    color: var(--white-color);
     transition: all 400ms ease;
     font-size: 1.5rem;
     padding: 0 1rem;

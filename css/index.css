@@ -2,10 +2,10 @@
 @import "./fonts.css";
 @import './top-bar.css';
 @import "./navbar.css";
-@import "./default.css";
+@import "./defaults.css";
 @import "./footer.css";
 @import "./course-box.css";
-
+@import "./helpers.css";
 
 /* Start landing Styles */
 
@@ -48,7 +48,7 @@
   position: absolute;
   left: 1rem;
   width: 5rem;
-  top: 0.7rem;
+  top: 1rem;
   height: 5rem;
   border-radius: 1rem;
   cursor: pointer;
@@ -182,38 +182,6 @@
 /* Finish About Us Styles */
 
 
-/* Start Helper Classes */
-
-.title {
-  font-size: 2.3rem;
-  color: #dfdfdf;
-  font-weight: bold;
-  line-height: 1.2;
-  position: relative;
-}
-
-.title::before {
-  content: "";
-  position: absolute;
-  right: -1rem;
-  width: 0.4rem;
-  height: 4.4rem;
-  background-color: rgb(73, 73, 243);
-  border-radius: 5rem;
-  transform: rotate(8deg);
-}
-
-.title::after {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  max-width: 250px;
-  height: 60%;
-  background-color: rgba(74, 101, 255, 0.158);
-}
-/* Finish Helper Classes */
 
 
 /* Start Popular Courses Styles */

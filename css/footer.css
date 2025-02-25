@@ -6,6 +6,7 @@
     padding: 4rem 3.5rem;
     position: relative;
     margin-bottom: 5rem;
+    box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.15);
   }
   
   .footer-widgets::before {
