@@ -42,7 +42,7 @@
 
 .article-header__text {
     font-size: 1.2rem;
-    color: #ffffff;
+    color: #ffffff9d;
 }
 
 .article__banner {
@@ -91,7 +91,7 @@
     color: #64dcfa;
 }
 
-.article__seconadary-banner {
+.article__secondary-banner {
     display: block;
     margin: 0 auto;
 }
@@ -102,7 +102,7 @@
 
 .article-section__title {
     font-size: 2.4rem;
-    color: #b8def0;
+    color: var(--primary-color);
     font-weight: bold;
     line-height: 1.2;
 }
@@ -137,7 +137,7 @@
     margin: 4rem 0;
     padding: 3.5rem 2.5rem;
     border-radius: 0.5rem;
-    /* background-color: #080a0e88; */
+    background-color: #080a0e67;
 }
 
 .suggestion-articles__content {
@@ -160,8 +160,8 @@
     position: absolute;
     top: -2rem;
     left: 2rem;
-    font-size: 1.5rem;
-    color: #ffffff;
+    font-size: 1.2rem;
+    color: #ffffff8e;
     /* font-weight: bold; */
     /* transform: rotate(180deg); */
 }
@@ -171,8 +171,8 @@
     position: absolute;
     top: -2rem;
     right: 2rem;
-    font-size: 1.5rem;
-    color: #fdfdfd;
+    font-size: 1.2rem;
+    color: #fdfdfd93;
 }
 
 .suggestion-articles__icon-link {
@@ -196,9 +196,13 @@
 }
 
 .comments__text > a , .comments__text {
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 1.5rem 0;
     font-size: 1.5rem;
+}
+.comments__text > a {
+    color: #9fa9ff;
+    text-decoration: underline;
 }
 
 .comments_content {
@@ -215,8 +219,8 @@
 .comments__content-textarea {
     height: 18.5rem;
     border-radius: 0.5rem;
-    border: 1px solid #dcdcdc;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07);
+    border: 1px solid #ffffff49;
+    box-shadow: 0 1px 3px 0 rgba(255, 255, 255, 0.07);
     background-color: rgba(28, 43, 61, 0.61);
     color: white;
 }
@@ -227,16 +231,17 @@
     padding: 0.8rem 1.7rem;
     background-color: var(--primary-color);
     color: var(--white-color);
-    border: none;
+    border: 2px solid white;
     border-radius: 0.5rem;
     font-size: 1.5rem;
     margin-bottom: 3rem;
     font-weight: 500;
 }
 .comments__button:hover{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: var(--primary-color);
-    font-weight: 700;
+    font-weight: 900;
+    border: 2px solid var(--primary-color);
 }
 
 /* Finish Article Details Styles */
@@ -284,12 +289,12 @@
 
 .sidebar-articles__item:hover {
     padding-right: 2rem;
-    background-color: #c0e0ff;
+    background-color: #3e4953;
     color: white;
 }
 
 .sidebar-articles__item:hover .sidebar-articles__icon {
-    color: var(--dark-color);
+    color: var(--white-color);
 }
 
 .sidebar-articles__icon {
@@ -325,7 +330,7 @@
 .paragraph {
     font-size: 1.5rem;
     line-height: 3rem;
-    color: #bebebe;
+    color: #ffffffb0;
 }
 
 /* Finish Helper Classes */
