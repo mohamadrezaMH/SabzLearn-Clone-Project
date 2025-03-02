@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>category page | sabzlearn</title>
+    <title>login page</title>
+
     <link rel="stylesheet" href="vendor/BootStrap/bootstrap.min.css">
     <link rel="stylesheet" href="vendor/SwiperSlider/swiper.css">
     <link rel="stylesheet" href="vendor/FontAwesome5/all.min.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
 
-    <!-- Start Header -->
+     <!-- Start Header -->
      <header class="header">
         <div class="top-bar">
           <div class="container-fluid">
@@ -48,7 +49,7 @@
                   <i class="fas fa-envelope top-bar__email-icon"></i>
                 </div>
                 <div class="top-bar__phone">
-                  <a href="#" class="top-bar__phone-text top-bar__link" style="direction: ltr;">
+                  <a style="direction: ltr;" href="#" class="top-bar__phone-text top-bar__link">
                     09108.....68
                   </a>
                   <i class="fas fa-phone top-bar__phone-icon"></i>
@@ -115,7 +116,7 @@
                   </li>
   
                   <li class="main-header__item">
-                    <a href="./category.html" class="main-header__link">فرانت اند
+                    <a href="#" class="main-header__link">فرانت اند
                       <i class="fas fa-angle-down main-header__link-icon"></i>
                       <ul class="main-header__dropdown">
                         <li class="main-header__dropdown-item">
@@ -210,209 +211,65 @@
       </header>
     <!-- Finish Header -->
 
-    <!-- Start Courses Section -->
+    <section class="login-register">
+        <div class="login">
+            <span class="login-title">ورود به حساب کاربری</span>
+            <span class="login-subtitle">
+                خوشحالیم دوباره میبینیمت دوست عزیز :)
+            </span>
 
-    <section class="courses">
-      <div class="container">
-        <div class="courses-top-bar">
-
-          <div class="courses-top-bar__right">
-            <div class="courses-top-bar__row-btn courses-top-bar__icon--active">
-              <i class="fas fa-border-all courses-top-bar__icon"></i>
+            <div class="login__new-member">
+                <span class="login__new-member-text">
+                    کاربر جدید هستید؟
+                </span>
+                <a href="#" class="login__new-member-link">ثبت نام</a>
             </div>
-            <div class="courses-top-bar__column-btn">
-              <i class="fas fa-align-left courses-top-bar__icon"></i>
-            </div>
 
-            <div class="courses-top-bar__selection">
-              <span class="courses-top-bar__selection-title">
-                مرتب سازی پیش فرض
-                <i class="fas fa-angle-down courses-top-bar__selection-icon"></i>
-              </span>
-              <ul class="courses-top-bar__selection-list">
-                <li class="courses-top-bar__selection-item courses-top-bar__selection-item--active">مرتب سازی پیش فرض</li>
-                <li class="courses-top-bar__selection-item">مرتب سازی بر اساس محبوبیت</li>
-                <li class="courses-top-bar__selection-item">مرتب سازی بر اساس امتیاز</li>
-                <li class="courses-top-bar__selection-item">مرتب سازی بر اساس آخرین</li>
-                <li class="courses-top-bar__selection-item">مرتب سازی بر اساس ارزان ترین</li>
-                <li class="courses-top-bar__selection-item">مرتب سازی بر اساس گران ترین</li>
+            <form action="#" class="login-form">
+              <div class="login-form__username">
+                <input type="text" class="login-form__username-input" placeholder="نام کاربری یا آدرس ایمیل" />
+                <i class="fa fa-user login-form__username-icon"></i>
+              </div>
+              <div class="login-form__password">
+                <input type="password" class="login-form__password-input" placeholder="رمز عبور" />
+                <i class="fa fa-lock login-form__password-icon"></i>
+              </div>
+              <button class="login-form__btn" type="submit">
+                <i class="fas fa-sign-in-alt login-form__btn-icon"></i>
+                <span class="login-form__btn-text">ورود</span>
+              </button>
+
+              <div class="login-form__password-setting">
+                <label class="login-form__password-remember">
+                  <input type="checkbox" class="login-form__password-checkbox" />
+                  <span class="login-form__password-text">مرا به خاطر داشته باش</span>
+                </label>
+                <label class="login-form__password-forget">
+                  <a href="#" class="login-form__password-forget-link">رمز عبور را فراموش کرده اید؟</a>
+                </label>
+              </div>
+            </form>
+
+            <div class="login-des">
+              <span class="login-des-title">سلام کاربر محترم:</span>
+              <ul class="login-des-list">
+                <li class="login-des-item">
+                  لطفا از مرورگر های مطمئن و بروز مانند گوگل کروم و فایرفاکس استفاده کنید.
+                </li>
+                <li class="login-des-item">
+                  ما هرگز اطلاعات محرمانه شمارا از طریق ایمیل درخواست نمیکنیم.
+                </li>
+                <li class="login-des-item">
+                  لطفا کلمه عبور خود را در فواصل زمانی کوتاه تغییر دهید.
+                </li>
               </ul>
             </div>
-          </div>
-
-          <div class="courses-top-bar__left">
-            <form action="#" class="courses-top-bar__form">
-              <input type="text" class="courses-top-bar__input" placeholder="جستجوی دوره ..." />
-              <i class="fas fa-search courses-top-bar__search-icon"></i>
-            </form>
-          </div>
-
         </div>
-
-        <div class="courses-content">
-          <div class="container">
-            <div class="row">
-              <div class="col-4">
-                <div class="course-box">
-                  <a href="#">
-                    <img src="images/courses/Course-thumbnail-Algorithm-1-768x432.webp" alt="Course img" class="course-box__img" />
-                  </a>
-                  <div class="course-box__main">
-                    <a href="#" class="course-box__title">دوره پروژه محور متخصص جنگو</a>
-
-                    <div class="course-box__rating-teacher">
-                      <div class="course-box__teacher">
-                        <i class="fas fa-chalkboard-teacher course-box__teacher-icon"></i>
-                        <a href="#" class="course-box__teacher-link">رضا دولتی</a>
-                      </div>
-                      <div class="course-box__rating">
-                        <img src="images/svgs/star.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                      </div>
-                    </div>
-
-                    <div class="course-box__status">
-                      <div class="course-box__users">
-                        <i class="fas fa-users course-box__users-icon"></i>
-                        <span class="course-box__users-text">500</span>
-                      </div>
-                      <span class="course-box__price">1,000,000</span>
-                    </div>
-                  </div>
-
-                  <div class="course-box__footer">
-                    <a href="#" class="course-box__footer-link">
-                      مشاهده اطلاعات
-                      <i class="fas fa-arrow-left course-box__footer-icon"></i>
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="course-box">
-                  <a href="#">
-                    <img src="images/courses/English22-1-768x432.webp" alt="Course img" class="course-box__img" />
-                  </a>
-                  <div class="course-box__main">
-                    <a href="#" class="course-box__title">دوره پروژه محور متخصص جنگو</a>
-
-                    <div class="course-box__rating-teacher">
-                      <div class="course-box__teacher">
-                        <i class="fas fa-chalkboard-teacher course-box__teacher-icon"></i>
-                        <a href="#" class="course-box__teacher-link">رضا دولتی</a>
-                      </div>
-                      <div class="course-box__rating">
-                        <img src="images/svgs/star.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                      </div>
-                    </div>
-
-                    <div class="course-box__status">
-                      <div class="course-box__users">
-                        <i class="fas fa-users course-box__users-icon"></i>
-                        <span class="course-box__users-text">500</span>
-                      </div>
-                      <span class="course-box__price">1,000,000</span>
-                    </div>
-                  </div>
-
-                  <div class="course-box__footer">
-                    <a href="#" class="course-box__footer-link">
-                      مشاهده اطلاعات
-                      <i class="fas fa-arrow-left course-box__footer-icon"></i>
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="course-box">
-                  <a href="#">
-                    <img src="images/courses/IMAGE-1403-02-20-17_59_09_11zon-768x432.webp" alt="Course img" class="course-box__img" />
-                  </a>
-                  <div class="course-box__main">
-                    <a href="#" class="course-box__title">دوره پروژه محور متخصص جنگو</a>
-
-                    <div class="course-box__rating-teacher">
-                      <div class="course-box__teacher">
-                        <i class="fas fa-chalkboard-teacher course-box__teacher-icon"></i>
-                        <a href="#" class="course-box__teacher-link">رضا دولتی</a>
-                      </div>
-                      <div class="course-box__rating">
-                        <img src="images/svgs/star.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                      </div>
-                    </div>
-
-                    <div class="course-box__status">
-                      <div class="course-box__users">
-                        <i class="fas fa-users course-box__users-icon"></i>
-                        <span class="course-box__users-text">500</span>
-                      </div>
-                      <span class="course-box__price">1,000,000</span>
-                    </div>
-                  </div>
-
-                  <div class="course-box__footer">
-                    <a href="#" class="course-box__footer-link">
-                      مشاهده اطلاعات
-                      <i class="fas fa-arrow-left course-box__footer-icon"></i>
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="courses-pagination">
-          <ul class="courses__pagination-list">
-            <li class="courses__pagination-item">
-              <a href="#" class="courses__pagination-link">
-                <i class="fas fa-long-arrow-alt-right courses__pagination-icon"></i>
-              </a>
-            </li>
-            <li class="courses__pagination-item">
-              <a href="#" class="courses__pagination-link courses__pagination-link--active">
-                1
-              </a>
-            </li>
-            <li class="courses__pagination-item">
-              <a href="#" class="courses__pagination-link">
-                2
-              </a>
-            </li>
-            <li class="courses__pagination-item">
-              <a href="#" class="courses__pagination-link ">
-                3
-              </a>
-            </li>
-            <li class="courses__pagination-item">
-              <a href="#" class="courses__pagination-link">
-                <i class="fas fa-long-arrow-alt-left courses__pagination-icon"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </section>
 
-    <!-- Finish Courses Section -->
-       
-    <!-- Start Footer -->
+      <!-- Start Footer -->
 
-    <footer class="footer">
+      <footer class="footer">
         <div class="container">
           <div class="footer-widgets">
             <div class="row">
@@ -510,7 +367,9 @@
   
     <!-- Finish Footer -->
 
-    <script src="vendor/FontAwesome5/all.min.js"></script>
     
+
+    <script src="vendor/FontAwesome5/all.min.js"></script>
+    <script src="vendor/Bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 </html>
