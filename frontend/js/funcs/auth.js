@@ -26,7 +26,9 @@ const register = () => {
           swal({
             title: "ثبت نام با موفقیت انجام شد",
             icon: 'success',
-            buttons: 'ورود به پنل'
+            buttons: 'ورود به سایت'
+          }).then(() =>{
+            location.href = 'index.html'
           })
         } else if (res.status === 409) {
           swal({
