@@ -1,0 +1,2561 @@
+{
+	"id": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+	"name": "Saeeidi Rad LMS",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Article",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"order": [
+				"3a8b14e2-7672-9be3-dd13-545b0a75ed90",
+				"a72292a0-b71d-1482-ecfc-38c29f5b731f",
+				"ba2501ba-b7e0-5f26-b311-5905b6412999",
+				"4ab6ba00-4215-0e85-48a9-0c28ebfe48ca",
+				"88fd2ef0-f5d5-9fb4-f75d-b03abecf13d5"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "81641ac6-6b3f-e620-06ab-725bbbea64f5"
+		},
+		{
+			"id": "c916c00f-6433-29b8-4135-d4122408881c",
+			"name": "Authentication",
+			"description": "",
+			"order": [
+				"d98b68af-a1dd-5f59-7e9b-9485bf7ae364",
+				"2357b931-9e52-f95e-3e57-ef6603f4e421",
+				"f4b3ffd9-d47f-412c-4b20-ea1cf6600836"
+			],
+			"folders_order": [],
+			"owner": 0,
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"name": "Category",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"order": [
+				"5cb32093-9496-c614-e412-50bce281e76f",
+				"10bb13db-5a0b-fc4e-d7e9-de766092b88e",
+				"a8285e41-eebf-26c5-442c-03b2ab44e5f6",
+				"45cbbea2-30a4-2846-2b25-f2cf5cf17df4"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "33ea256a-bbb2-2494-86c0-b2b5cd6a0c08"
+		},
+		{
+			"name": "Comment",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"order": [
+				"b51040cf-f51c-195f-0f64-550eb59335f3",
+				"ab68c7c1-0d5e-0dac-1135-ae63d822d93e",
+				"7e9696a9-ffc2-a83c-a4ed-a3e57af8d510",
+				"82867bfd-88c8-3067-ea9c-0ae67c86e289",
+				"a5e7ba0b-6b41-1f3c-e579-9421ff01f8f4",
+				"620ed337-6cf4-d631-7bbc-284ca4397836"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "887bd208-826b-fc6f-a5c8-34785d8bf5c8"
+		},
+		{
+			"name": "Contact",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"order": [
+				"e2dd6bfe-b2ce-55fe-f88f-786451f6e259",
+				"11c013a5-fd18-0cfa-ce56-cf345dc09b26",
+				"f832e613-267c-934e-4a44-6b90b979c8f7",
+				"04f5d1f0-1de3-dca3-2376-72c17de4c4c8"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "e8ebdeee-d0c6-151d-fdb5-f086c4c12109"
+		},
+		{
+			"id": "f4126b9f-8044-df03-3079-00210cb76415",
+			"name": "Course",
+			"description": "",
+			"order": [
+				"010838b4-a5ed-9789-3a77-798176b14954",
+				"5ae4db09-0fac-01d2-5d90-b7c7921d959e",
+				"ece520bd-9f5b-972d-c31f-2835719b2ac4",
+				"6242d4ef-8de5-746a-aa30-79192d0d7ebc",
+				"13649191-a4c9-d6d4-b69a-45b944ce70c0",
+				"5d6f8c46-3941-87c4-0204-c21ff9af4500",
+				"4c8843da-d912-081f-2c5c-d8b4de05cd91",
+				"d597e67c-a1ac-3625-e3cd-7ad928db09a2",
+				"b763a662-c93c-a608-6f89-c1eb9ddaa832",
+				"15a49a72-6c09-a14e-d85d-efdd7343d036",
+				"4f0660fa-87b9-f25e-aa29-a7cb48d986c9",
+				"2c662c6f-f717-8930-10e1-9b8f49ae1e73",
+				"d1fead83-e6d6-08b8-695c-0df14d8d4ced"
+			],
+			"folders_order": [],
+			"owner": 0,
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"name": "Infos",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"order": [
+				"40b9f3e1-fbf1-3f70-97c9-ebac8f4b5d55",
+				"b8adb0d3-0f0c-b51f-9d5f-b4b4b50e1dd4"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "68aa177c-f250-7384-0610-07fb462578f2"
+		},
+		{
+			"id": "6a9193b1-122b-0a4b-307d-b9be39895dd3",
+			"name": "Menu",
+			"description": "",
+			"order": [
+				"f69984c0-7198-384b-7627-e16d2829e22f",
+				"8fd4c6c8-9299-968c-5bc6-d175b9a486be",
+				"5af10ddf-314b-1efa-871a-c6f742e121ac",
+				"5573f0b2-7dd3-89ce-cfd4-fb880c7152d8",
+				"3c1b95eb-74f0-d675-1074-ea431c66374e"
+			],
+			"folders_order": [],
+			"owner": 0,
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"name": "NewsLetters (Emails)",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"order": [
+				"6d68e4df-de31-4fa0-cc70-5ccd80166e5b",
+				"5491f683-79aa-c1d4-bbbb-f2989aed07d7"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "36565a1f-4c93-f8fa-9f60-ca79dfd65f64"
+		},
+		{
+			"name": "Notification",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"order": [
+				"23ac6f45-72b5-2606-906c-ddc5e31553cc"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "b61ad718-4821-fab5-599d-b45763720953"
+		},
+		{
+			"name": "Off",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"order": [
+				"9d0fb0c9-5cee-245a-41ed-1ccd50920b8d",
+				"0f72b732-2bd1-2a43-87f5-ecf19d1076d2",
+				"c191ab1f-3382-7128-9cda-927f6c630f30",
+				"a7bc79e4-d5ac-5504-7085-8575483d3a68",
+				"3f8dab6d-193c-ee2c-ca94-b3234122e1ce"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "7c9f5a64-14ed-4742-b243-13941557799c"
+		},
+		{
+			"name": "Order",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"order": [
+				"423cd415-89df-52fa-ae38-1dbdc57ecbf0",
+				"5b679159-3472-8b66-4c8b-f988e9f3baa0"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "2450a183-87bf-98f9-d573-c811dcf4fbb1"
+		},
+		{
+			"name": "Search",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"order": [
+				"af78ec8b-fe89-8c43-690a-d0dc19f540b8"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "e7716507-6f7a-1df9-4712-9303e170d83b"
+		},
+		{
+			"name": "Ticket",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"order": [
+				"db125b09-25bc-60ab-85e8-ae23a5c370e2",
+				"0a864020-ad0a-f7bd-dc79-c69a74ac83a1",
+				"9447a29d-6954-17bb-8543-a60fd496644c",
+				"571bad83-bba5-6542-037b-415b1d998669",
+				"449ed0de-ee79-206b-a9d7-60bf3528d07e",
+				"c1f13dee-41e0-4fff-52e9-9381ff036d22",
+				"31854e52-ece4-cd4e-f4c0-2a1132304c5a"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "813f351c-6ffd-18b0-0720-2406abf61359"
+		},
+		{
+			"name": "User",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"order": [
+				"a27efd06-49a4-db32-6bf6-0697ae2923a9",
+				"5787ca85-38a0-f714-d680-805e28b57252",
+				"864e9d6c-1f71-b1bd-917a-99d05199fcd2",
+				"a98bf9b8-9789-352c-791e-be1a251257e0",
+				"de631406-6476-3763-71f6-ac17cc64bd13",
+				"f8147a77-9b5b-4bda-4ee0-cac3aa1d7029"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "54e8bf45-abf4-ba9c-f73b-9689f911be2b"
+		}
+	],
+	"folders_order": [
+		"c916c00f-6433-29b8-4135-d4122408881c",
+		"f4126b9f-8044-df03-3079-00210cb76415",
+		"6a9193b1-122b-0a4b-307d-b9be39895dd3",
+		"33ea256a-bbb2-2494-86c0-b2b5cd6a0c08",
+		"81641ac6-6b3f-e620-06ab-725bbbea64f5",
+		"887bd208-826b-fc6f-a5c8-34785d8bf5c8",
+		"36565a1f-4c93-f8fa-9f60-ca79dfd65f64",
+		"e8ebdeee-d0c6-151d-fdb5-f086c4c12109",
+		"e7716507-6f7a-1df9-4712-9303e170d83b",
+		"b61ad718-4821-fab5-599d-b45763720953",
+		"54e8bf45-abf4-ba9c-f73b-9689f911be2b",
+		"68aa177c-f250-7384-0610-07fb462578f2",
+		"7c9f5a64-14ed-4742-b243-13941557799c",
+		"2450a183-87bf-98f9-d573-c811dcf4fbb1",
+		"813f351c-6ffd-18b0-0720-2406abf61359"
+	],
+	"timestamp": 0,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "010838b4-a5ed-9789-3a77-798176b14954",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/courses/",
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "name",
+					"value": "دوره تستی",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "description",
+					"value": "توضیح دوره تستی",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "shortName",
+					"value": "test-course",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "categoryID",
+					"value": "Category ID",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "price",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "support",
+					"value": "پشتیبانی تستی",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "start || presell",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cover",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1672135125816,
+			"name": "Create",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": []
+		},
+		{
+			"id": "04f5d1f0-1de3-dca3-2376-72c17de4c4c8",
+			"headers": "",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/contact/:id",
+			"folder": "e8ebdeee-d0c6-151d-fdb5-f086c4c12109",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1667217416877,
+			"name": "Remove",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "0a864020-ad0a-f7bd-dc79-c69a74ac83a1",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/tickets/departments-subs/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Departments Subs",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1668764779781,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "813f351c-6ffd-18b0-0720-2406abf61359",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "0f72b732-2bd1-2a43-87f5-ecf19d1076d2",
+			"headers": "Content-Type: application/json\nAuthorization: Token\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/offs/:code",
+			"folder": "7c9f5a64-14ed-4742-b243-13941557799c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {
+				"code": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "code",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1667941952343,
+			"name": "One Code Info",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"course\": \"{{$randomCourseID}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "10bb13db-5a0b-fc4e-d7e9-de766092b88e",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/category",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "All",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1666994792848,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "33ea256a-bbb2-2494-86c0-b2b5cd6a0c08",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "11c013a5-fd18-0cfa-ce56-cf345dc09b26",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/contact",
+			"folder": "e8ebdeee-d0c6-151d-fdb5-f086c4c12109",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1666642020145,
+			"name": "All",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "13649191-a4c9-d6d4-b69a-45b944ce70c0",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/courses/sessions",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "All Sessions",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667348241159,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "15a49a72-6c09-a14e-d85d-efdd7343d036",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/courses/presell",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Presell",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1666470033103,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "2357b931-9e52-f95e-3e57-ef6603f4e421",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/auth/login",
+			"folder": "c916c00f-6433-29b8-4135-d4122408881c",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "if(pm.response.code == 200) {\n    pm.collectionVariables.set('accessToken', pm.response.json().accessToken)\n}",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1671032990129,
+			"name": "Login",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n    \"identifier\": \"Mollie.Strosin83\",\n    \"password\": \"123456\"\n}"
+		},
+		{
+			"id": "23ac6f45-72b5-2606-906c-ddc5e31553cc",
+			"headers": "Authorization: Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/notifications/see/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "See",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1666877239888,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "b61ad718-4821-fab5-599d-b45763720953",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "2c662c6f-f717-8930-10e1-9b8f49ae1e73",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/courses/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Remove",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667053809383,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "31854e52-ece4-cd4e-f4c0-2a1132304c5a",
+			"headers": "Authorization: User Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "User Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/tickets/answer/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Answer",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669737193574,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "813f351c-6ffd-18b0-0720-2406abf61359",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "3a8b14e2-7672-9be3-dd13-545b0a75ed90",
+			"headers": "Authorization: admin token\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "admin token",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/articles",
+			"folder": "81641ac6-6b3f-e620-06ab-725bbbea64f5",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1667254968520,
+			"name": "Create",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\": \"{{$randomTitle}}\",\n\t\"description\": \"{{$randomDescription}}\",\n\t\"body\": \"{{$randomBody}}\",\n\t\"shortName\": \"{{$randomShortName}}\",\n\t\"categoryID\": \"{{$randomCategoryID}}\",\n\t\"cover\": \"{{$fileUpload}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "3c1b95eb-74f0-d675-1074-ea431c66374e",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/menus/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Remove",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667654342699,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "6a9193b1-122b-0a4b-307d-b9be39895dd3",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "3f8dab6d-193c-ee2c-ca94-b3234122e1ce",
+			"headers": "Authorization: Admin Token\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/v1/offs/all",
+			"folder": "7c9f5a64-14ed-4742-b243-13941557799c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1670488211326,
+			"name": "On All",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"discount\": \"{{$randomDiscountPercent}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "40b9f3e1-fbf1-3f70-97c9-ebac8f4b5d55",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/infos/index",
+			"folder": "68aa177c-f250-7384-0610-07fb462578f2",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1667406868894,
+			"name": "Index Page",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "423cd415-89df-52fa-ae38-1dbdc57ecbf0",
+			"headers": "Authorization: Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/orders",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "All",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1668686668709,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "2450a183-87bf-98f9-d573-c811dcf4fbb1",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "449ed0de-ee79-206b-a9d7-60bf3528d07e",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/tickets",
+			"folder": "813f351c-6ffd-18b0-0720-2406abf61359",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1670232834555,
+			"name": "All",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "45cbbea2-30a4-2846-2b25-f2cf5cf17df4",
+			"headers": "Content-Type: application/json\nAuthorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/category/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Update",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667049086229,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "33ea256a-bbb2-2494-86c0-b2b5cd6a0c08",
+			"rawModeData": "{\n\t\"title\": \"{{$randomCategoryTitle}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "4ab6ba00-4215-0e85-48a9-0c28ebfe48ca",
+			"headers": "Authorization: user token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "user token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/articles/:shortName",
+			"queryParams": [],
+			"pathVariables": {
+				"shortName": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "shortName",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "one",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1665700800537,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "81641ac6-6b3f-e620-06ab-725bbbea64f5",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "4c8843da-d912-081f-2c5c-d8b4de05cd91",
+			"headers": "Authorization: User Token\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "User Token",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/courses/:id/register",
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {
+				"id": "63443b224a62cea9942aec51"
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": "63443b224a62cea9942aec51"
+				}
+			],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1667939456250,
+			"name": "register",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"price\": \"{{$randomPrice}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "4f0660fa-87b9-f25e-aa29-a7cb48d986c9",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/courses/popular",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Popular",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1666470185503,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "5491f683-79aa-c1d4-bbbb-f2989aed07d7",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/newsletters",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "All (Emails)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1666623863135,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "36565a1f-4c93-f8fa-9f60-ca79dfd65f64",
+			"rawModeData": "{\n\t\"email\": \"ali@gmail.com\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "5573f0b2-7dd3-89ce-cfd4-fb880c7152d8",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/menus/topbar",
+			"folder": "6a9193b1-122b-0a4b-307d-b9be39895dd3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1671095383787,
+			"name": "Topbar",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n    \"title\": \"آموزش  ساخت ربات با پایتون\",\n    \"href\": \"/course-info/ai-with-py\",\n    \"parent\": \"634599e2d4a59348b0c6e2b0\"\n}"
+		},
+		{
+			"id": "571bad83-bba5-6542-037b-415b1d998669",
+			"headers": "Authorization: User Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "User Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/tickets/user",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "By User",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1669728630556,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "813f351c-6ffd-18b0-0720-2406abf61359",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "5787ca85-38a0-f714-d680-805e28b57252",
+			"headers": "Authorization: Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/users/:id",
+			"folder": "54e8bf45-abf4-ba9c-f73b-9689f911be2b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1666894415016,
+			"name": "Delete",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "5ae4db09-0fac-01d2-5d90-b7c7921d959e",
+			"name": "All",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"method": "GET",
+			"helperAttributes": {},
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{baseUrl}}/courses",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"preRequestScript": "",
+			"tests": ""
+		},
+		{
+			"id": "5af10ddf-314b-1efa-871a-c6f742e121ac",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/menus/all",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "All (p-admin)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667603808035,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "6a9193b1-122b-0a4b-307d-b9be39895dd3",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "5b679159-3472-8b66-4c8b-f988e9f3baa0",
+			"headers": "Authorization: Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/orders/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "One",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1668687186248,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "2450a183-87bf-98f9-d573-c811dcf4fbb1",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "5cb32093-9496-c614-e412-50bce281e76f",
+			"headers": "Authorization: user token\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "user token",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/category",
+			"folder": "33ea256a-bbb2-2494-86c0-b2b5cd6a0c08",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1666995757919,
+			"name": "Create",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\": \"{{$randomCategoryTitle}}\",\n\t\"name\": \"{{$randomCategoryName}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "5d6f8c46-3941-87c4-0204-c21ff9af4500",
+			"headers": "Authorization: Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/courses/:shortName/:sessionID",
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {
+				"shortName": "",
+				"sessionID": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "shortName",
+					"value": ""
+				},
+				{
+					"key": "sessionID",
+					"value": ""
+				}
+			],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1667560889695,
+			"name": "One Session",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "620ed337-6cf4-d631-7bbc-284ca4397836",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/comments/reject/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Reject",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667815653091,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "887bd208-826b-fc6f-a5c8-34785d8bf5c8",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "6242d4ef-8de5-746a-aa30-79192d0d7ebc",
+			"headers": "Authorization: Admin Token\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/courses/:id/sessions",
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {
+				"id": "63443b224a62cea9942aec51"
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": "63443b224a62cea9942aec51"
+				}
+			],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1667415051413,
+			"name": "Create Session",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n    \"title\": \"{{$randomFullName}}\",\n    \"time\": \"{{$randomTime}}\",\n    \"video\": \"{{$fileUpload}}\",\n    \"free\": \"{{$randomStatus}} => {0, 1}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "6d68e4df-de31-4fa0-cc70-5ccd80166e5b",
+			"headers": "//Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "",
+					"value": "",
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{baseUrl}}/newsletters",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Create",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1666623580149,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "36565a1f-4c93-f8fa-9f60-ca79dfd65f64",
+			"rawModeData": "{\n\t\"email\": \"{{$randomEmail}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "7e9696a9-ffc2-a83c-a4ed-a3e57af8d510",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/comments/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Remove",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667689620960,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "887bd208-826b-fc6f-a5c8-34785d8bf5c8",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "82867bfd-88c8-3067-ea9c-0ae67c86e289",
+			"headers": "Authorization: Admin Token\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/comments/answer/:id",
+			"folder": "887bd208-826b-fc6f-a5c8-34785d8bf5c8",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1667740303410,
+			"name": "Answer",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\": \"{{$randomBody}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "864e9d6c-1f71-b1bd-917a-99d05199fcd2",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/users/ban/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Ban",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1666954906835,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "54e8bf45-abf4-ba9c-f73b-9689f911be2b",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "88fd2ef0-f5d5-9fb4-f75d-b03abecf13d5",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/articles/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Remove",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667155877335,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "81641ac6-6b3f-e620-06ab-725bbbea64f5",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "8fd4c6c8-9299-968c-5bc6-d175b9a486be",
+			"name": "All",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"method": "GET",
+			"headers": "",
+			"data": [],
+			"rawModeData": "",
+			"url": "{{baseUrl}}/menus",
+			"responses": [],
+			"pathVariableData": [],
+			"queryParams": [],
+			"headerData": [],
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"folder": "6a9193b1-122b-0a4b-307d-b9be39895dd3",
+			"preRequestScript": "",
+			"tests": ""
+		},
+		{
+			"id": "9447a29d-6954-17bb-8543-a60fd496644c",
+			"headers": "Content-Type: application/json\nAuthorization: User Token\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "User Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/tickets",
+			"folder": "813f351c-6ffd-18b0-0720-2406abf61359",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1669821723970,
+			"name": "Create",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"departmentID\": \"{{$randomDepartmentID}}\",\n    \"departmentSubID\": \"{{$randomDepartmentSubID}}\",\n    \"title\": \"{{$randomTitle}}\",\n    \"priority\": \"{{$randomPriority}} => 1-2-3\",\n    \"body\": \"{{$randomBody}}\",\n    \"course\": \"{{$randomcourseID}} => Optional\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "9d0fb0c9-5cee-245a-41ed-1ccd50920b8d",
+			"headers": "Authorization: Admin Token\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/offs/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Create",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667695960962,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7c9f5a64-14ed-4742-b243-13941557799c",
+			"rawModeData": "{\n\t\"code\": \"{{$randomCode}}\",\n\t\"percent\": \"{{$randomPercent}}\",\n\t\"course\": \"{{$randomCourseID}}\",\n\t\"max\": \"${{randomMax}} => (Number)\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "a27efd06-49a4-db32-6bf6-0697ae2923a9",
+			"headers": "Authorization: Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "All",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1666892294168,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "54e8bf45-abf4-ba9c-f73b-9689f911be2b",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "a5e7ba0b-6b41-1f3c-e579-9421ff01f8f4",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/comments/accept/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Accept",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667813692074,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "887bd208-826b-fc6f-a5c8-34785d8bf5c8",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "a72292a0-b71d-1482-ecfc-38c29f5b731f",
+			"headers": "Authorization: Admin token\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin token",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/articles/draft",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Draft",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667860972372,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "81641ac6-6b3f-e620-06ab-725bbbea64f5",
+			"rawModeData": "{\n\t\"title\": \"{{$randomTitle}}\",\n\t\"description\": \"{{$randomDescription}}\",\n\t\"body\": \"{{$randomBody}}\",\n\t\"shortName\": \"{{$randomShortName}}\",\n\t\"categoryID\": \"{{$randomCategoryID}}\",\n\t\"cover\": \"{{$fileUpload}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "a7bc79e4-d5ac-5504-7085-8575483d3a68",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/offs/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Remove",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667696328976,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "7c9f5a64-14ed-4742-b243-13941557799c",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "a8285e41-eebf-26c5-442c-03b2ab44e5f6",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/category/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Remove",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667044701890,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "33ea256a-bbb2-2494-86c0-b2b5cd6a0c08",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "a98bf9b8-9789-352c-791e-be1a251257e0",
+			"headers": "Authorization: User Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "User Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/users/courses/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Courses",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667775038483,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "54e8bf45-abf4-ba9c-f73b-9689f911be2b",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "ab68c7c1-0d5e-0dac-1135-ae63d822d93e",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/comments",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "All",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667688827541,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "887bd208-826b-fc6f-a5c8-34785d8bf5c8",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "af78ec8b-fe89-8c43-690a-d0dc19f540b8",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/search/:searchValue",
+			"queryParams": [],
+			"pathVariables": {
+				"searchValue": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "searchValue",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Result",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1666658756811,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "e7716507-6f7a-1df9-4712-9303e170d83b",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "b51040cf-f51c-195f-0f64-550eb59335f3",
+			"headers": "Authorization: Token\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/comments",
+			"folder": "887bd208-826b-fc6f-a5c8-34785d8bf5c8",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1667982237919,
+			"name": "Create",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"body\": \"{{$randomCommentBody}}\",\n\t\"courseShortName\": \"{{$randomCourseShortName}}\",\n\t\"score\": \"${{randomScoreNumber}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "b763a662-c93c-a608-6f89-c1eb9ddaa832",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/courses/related/:shortName",
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {
+				"shortName": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "shortName",
+					"value": ""
+				}
+			],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668004340630,
+			"name": "Related",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "b8adb0d3-0f0c-b51f-9d5f-b4b4b50e1dd4",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/infos/p-admin",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Admin Panel",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667411221400,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "68aa177c-f250-7384-0610-07fb462578f2",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "ba2501ba-b7e0-5f26-b311-5905b6412999",
+			"headers": "Authorization: user token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "user token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/articles",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "All",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1665699396635,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "81641ac6-6b3f-e620-06ab-725bbbea64f5",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "c191ab1f-3382-7128-9cda-927f6c630f30",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/offs/",
+			"folder": "7c9f5a64-14ed-4742-b243-13941557799c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1672588510812,
+			"name": "All",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": []
+		},
+		{
+			"id": "c1f13dee-41e0-4fff-52e9-9381ff036d22",
+			"headers": "Authorization: Admin Token\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/tickets/answer",
+			"folder": "813f351c-6ffd-18b0-0720-2406abf61359",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1669735976094,
+			"name": "Answer",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"ticketID\": \"{{$randomTicketID}}\",\n\t\"body\": \"{{$randomBody}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "d1fead83-e6d6-08b8-695c-0df14d8d4ced",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/courses/sessions/:id",
+			"queryParams": [],
+			"pathVariables": {
+				"id": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "id",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "Remove Session",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1667390338870,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "d597e67c-a1ac-3625-e3cd-7ad928db09a2",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/courses/category/:categoryName",
+			"queryParams": [],
+			"pathVariables": {
+				"categoryName": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "categoryName",
+					"value": ""
+				}
+			],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"data": null,
+			"dataMode": "params",
+			"name": "By Category",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1666309072786,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "d98b68af-a1dd-5f59-7e9b-9485bf7ae364",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/auth/register",
+			"folder": "c916c00f-6433-29b8-4135-d4122408881c",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "if(pm.response.code == 201) {\n    pm.collectionVariables.set('accessToken', pm.response.json().accessToken)\n}",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1670937018901,
+			"name": "Register",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n    \"name\": \"{{$randomFullName}}\",\n    \"username\": \"{{$randomUserName}}\",\n    \"email\": \"{{$randomEmail}}\",\n    \"phone\": \"{{$randomPhone}}\",\n    \"password\": \"123456\",\n    \"confirmPassword\": \"123456\" \n}"
+		},
+		{
+			"id": "db125b09-25bc-60ab-85e8-ae23a5c370e2",
+			"headers": "",
+			"headerData": [],
+			"url": "{{baseUrl}}/tickets/departments",
+			"folder": "813f351c-6ffd-18b0-0720-2406abf61359",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1668763781428,
+			"name": "Departments",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "de631406-6476-3763-71f6-ac17cc64bd13",
+			"headers": "Authorization: User Token\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "User Token",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:4000/v1/users/",
+			"folder": "54e8bf45-abf4-ba9c-f73b-9689f911be2b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1669761689861,
+			"name": "Update",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"{{$randomName}}\",\n\t\"username\": \"{{$randomUserName}}\",\n\t\"email\": \"{{$randomEmail}}\",\n\t\"password\": \"{{$randomPassword}}\",\n\t\"phone\": \"{{$randomPhone}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "e2dd6bfe-b2ce-55fe-f88f-786451f6e259",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/contact",
+			"folder": "e8ebdeee-d0c6-151d-fdb5-f086c4c12109",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1666642012114,
+			"name": "Create",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"{{$randomName}}\",\n\t\"email\": \"{{$randomEmail}}\",\n\t\"phone\": \"{{$randomPhoneNumber}}\",\n\t\"body\" : \"{{$randomBody}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "ece520bd-9f5b-972d-c31f-2835719b2ac4",
+			"headers": "//Authorization: Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Token",
+					"description": "",
+					"enabled": false
+				}
+			],
+			"url": "{{baseUrl}}/courses/:shortName",
+			"folder": "f4126b9f-8044-df03-3079-00210cb76415",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {
+				"shortName": ""
+			},
+			"pathVariableData": [
+				{
+					"key": "shortName",
+					"value": ""
+				}
+			],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1666251845644,
+			"name": "one",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "f4b3ffd9-d47f-412c-4b20-ea1cf6600836",
+			"headers": "Authorization: User Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "User Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/auth/me",
+			"folder": "c916c00f-6433-29b8-4135-d4122408881c",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1671055055844,
+			"name": "Me",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": []
+		},
+		{
+			"id": "f69984c0-7198-384b-7627-e16d2829e22f",
+			"headers": "Authorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/menus",
+			"folder": "6a9193b1-122b-0a4b-307d-b9be39895dd3",
+			"queryParams": [],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1672233440205,
+			"name": "Create",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n    \"title\": \"زیر منوی اول منوی دوم\",\n    \"href\": \"/second/first\",\n    \"parent\": \"{{$randomParentMenuID}}\"\n}"
+		},
+		{
+			"id": "f8147a77-9b5b-4bda-4ee0-cac3aa1d7029",
+			"headers": "Authorization: Admin Token\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/users/role",
+			"folder": "54e8bf45-abf4-ba9c-f73b-9689f911be2b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1670573989272,
+			"name": "Role",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"role\": \"{{$randomUserRole}} => ADMIN || USER\",\n\t\"id\": \"{{$randomUserID}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		},
+		{
+			"id": "f832e613-267c-934e-4a44-6b90b979c8f7",
+			"headers": "Content-Type: application/json\nAuthorization: Admin Token\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Admin Token",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{baseUrl}}/contact/answer",
+			"folder": "e8ebdeee-d0c6-151d-fdb5-f086c4c12109",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1667187484120,
+			"name": "Answer",
+			"description": "",
+			"collectionId": "7aea37b3-0246-0b8d-737b-4e76201571ea",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\": \"{{$randomEmail}}\",\n\t\"answer\": \"{{$randomAnswer}}\"\n}",
+			"collection_id": "7aea37b3-0246-0b8d-737b-4e76201571ea"
+		}
+	]
+}
