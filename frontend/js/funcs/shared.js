@@ -26,8 +26,9 @@ const renderTopbarMenus = async () => {
   console.log(topbarMenus);
 
   topBarList.innerHTML = '';
+  const shuffleArray = topbarMenus.sort((a,b) => 0.5 - Math.random());
 
-  [...topbarMenus].splice(0, 6).map(menu => {
+  shuffleArray.slice(0, 6).map(menu => {
     topBarList.innerHTML += `<li class="top-bar__item">
       <a href="#" class="top-bar__link">${menu.title}</a>
     </li>`
