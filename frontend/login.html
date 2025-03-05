@@ -227,14 +227,14 @@
 
             <form action="#" class="login-form">
               <div class="login-form__username">
-                <input type="text" class="login-form__username-input" placeholder="نام کاربری یا آدرس ایمیل" />
+                <input type="text" class="login-form__username-input" id="identifier" placeholder="نام کاربری یا آدرس ایمیل" />
                 <i class="fa fa-user login-form__username-icon"></i>
               </div>
               <div class="login-form__password">
-                <input type="password" class="login-form__password-input" placeholder="رمز عبور" />
+                <input type="password" class="login-form__password-input" id="password" placeholder="رمز عبور" />
                 <i class="fa fa-lock login-form__password-icon"></i>
               </div>
-              <button class="login-form__btn" type="submit">
+              <button id="login-btn" class="login-form__btn" type="submit">
                 <i class="fas fa-sign-in-alt login-form__btn-icon"></i>
                 <span class="login-form__btn-text">ورود</span>
               </button>
@@ -371,5 +371,7 @@
 
     <script src="vendor/FontAwesome5/all.min.js"></script>
     <script src="vendor/Bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./vendor/Swal/sweetalert.min.js"></script>
+    <script src="./js/login.js" type="module"></script>
 </body>
 </html>
