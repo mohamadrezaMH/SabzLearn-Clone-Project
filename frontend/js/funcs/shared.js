@@ -48,7 +48,9 @@ const getAndShowAllCourses = async () => {
     <div class="col-4">
                 <div class="course-box">
                   <a href="#">
-                    <img src="./images/courses/${course.cover}" alt="Course img" class="course-box__img" />
+                    <img src="./images/courses/${
+                      course.cover
+                    }" alt="Course img" class="course-box__img" />
                   </a>
                   <div class="course-box__main">
                     <a href="#" class="course-box__title">${course.name}</a>
@@ -123,7 +125,9 @@ const getAndShowPopularCourses = async () => {
     <div class="swiper-slide">
     <div class="course-box">
       <a href="#">
-        <img src="./images/courses/${course.cover}"  alt="Course img" class="course-box__img" />
+        <img src="./images/courses/${
+          course.cover
+        }"  alt="Course img" class="course-box__img" />
       </a>
       <div class="course-box__main">
         <a href="#" class="course-box__title">${course.name}</a>
@@ -134,11 +138,20 @@ const getAndShowPopularCourses = async () => {
             <a href="#" class="course-box__teacher-link">${course.creator}</a>
           </div>
           <div class="course-box__rating">
-            <img src="images/svgs/star.svg" alt="rating" class="course-box__star">
-            <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-            <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-            <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-            <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
+          ${Array(5 - course.courseAverageScore)
+            .fill(0)
+            .map(
+              (score) =>
+                '<img src="images/svgs/star.svg" alt="rating" class="course-box__star">'
+            )
+            .join("")}
+          ${Array(course.courseAverageScore)
+            .fill(0)
+            .map(
+              (score) =>
+                '<img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">'
+            )
+            .join("")}
           </div>
         </div>
 
@@ -147,7 +160,9 @@ const getAndShowPopularCourses = async () => {
             <i class="fas fa-users course-box__users-icon"></i>
             <span class="course-box__users-text">${course.registers}</span>
           </div>
-          <span class="course-box__price">${course.price === 0 ? "رایگان" : course.price.toLocaleString()}</span>
+          <span class="course-box__price">${
+            course.price === 0 ? "رایگان" : course.price.toLocaleString()
+          }</span>
         </div>
       </div>
 
@@ -164,9 +179,8 @@ const getAndShowPopularCourses = async () => {
     );
   });
 
-  return popularCourses
+  return popularCourses;
 };
-
 
 const getAndShowPresellCourses = async () => {
   const presellCoursesWrapper = document.querySelector(
@@ -240,6 +254,47 @@ const getAndShowPresellCourses = async () => {
   return presellCourses;
 };
 
+const getAndShowArticles = async () => {
+  const articlesWrapper = document.querySelector("#articles-wrapper");
+
+  const res = await fetch(`http://localhost:4000/v1/articles`);
+  const articles = await res.json();
+
+  articles.slice(0, 6).forEach((article) => {
+    articlesWrapper.insertAdjacentHTML(
+      "beforeend",
+      `
+    <div class="col-4">
+    <div class="article-card">
+      <div class="article-card__header">
+        <a href="#" class="article-card__link-img">
+          <img src=http://localhost:4000/courses/covers/${article.cover} class="article-card__img" alt="Article Cover" />
+        </a>
+      </div>
+      <div class="article-card__content">
+        <a href="#" class="article-card__link">
+          ${article.title}
+        </a>
+        <p class="article-card__text">
+        ${article.description}
+        </p>
+        <a href="#" class="article-card__btn">بیشتر بخوانید</a>
+      </div>
+    </div>
+  </div>
+    `
+    );
+  });
+
+  return articles;
+};
 
 
-export { showUserNameInNavbar, renderTopbarMenus, getAndShowAllCourses, getAndShowPopularCourses ,getAndShowPresellCourses };
+export {
+  showUserNameInNavbar,
+  renderTopbarMenus,
+  getAndShowAllCourses,
+  getAndShowPopularCourses,
+  getAndShowPresellCourses,
+  getAndShowArticles,
+};
