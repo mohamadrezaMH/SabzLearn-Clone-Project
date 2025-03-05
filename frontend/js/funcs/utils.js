@@ -19,4 +19,15 @@ const getToken = () => {
   return userInfos ? userInfos.token : null;
 };
 
-export { showSwal, saveIntoLocalStorage, getFromLocalStorage, getToken };
+const isLogin = () => {
+  const userInfos = localStorage.getItem("user");
+  return userInfos ? true : false;
+};
+
+export {
+  showSwal,
+  saveIntoLocalStorage,
+  getFromLocalStorage,
+  getToken,
+  isLogin,
+};
