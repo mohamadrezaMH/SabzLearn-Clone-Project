@@ -18,7 +18,9 @@ window.addEventListener("load", () => {
   getAndShowPopularCourses();
   getAndShowPresellCourses();
   getAndShowArticles();
-  getAndShowNavbarMenus();
+  getAndShowNavbarMenus().then(data => {
+    console.log(data);
+})
 });
 
 function typeWriter(text, index) {

@@ -91,87 +91,12 @@
                   points="816.6519 386.7124 816.6519 527.0091 478.1841 760.5632 302.0575 655.3487 816.6519 386.7124"
                 />
               </svg>  
-                <ul class="main-header__menu">
+                <ul class="main-header__menu" id="menus-wrapper">
                   <li class="main-header__item">
                     <a href="./index.html" class="main-header__link">صفحه اصلی</a>
                   </li>
   
-                  <li class="main-header__item">
-                    <a href="./category.html" class="main-header__link">فرانت اند
-                      <i class="fas fa-angle-down main-header__link-icon"></i>
-                      <ul class="main-header__dropdown">
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">آموزش Html</a>
-                        </li>
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">آموزش Css</a>
-                        </li>
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">آموزش جاوا اسکریپت</a>
-                        </li>
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">آموزش FlexBox</a>
-                        </li>
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">آموزش جامع ری‌اکت</a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class="main-header__item">
-                    <a href="#" class="main-header__link">امنیت
-                      <i class="fas fa-angle-down main-header__link-icon"></i>
-                      <ul class="main-header__dropdown">
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">آموزش کالی لینوکس</a>
-                        </li>
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">آموزش پایتون سیاه</a>
-                        </li>
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">آموزش جاوا اسکریپت سیاه</a>
-                        </li>
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">آموزش شبکه</a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class="main-header__item">
-                    <a href="#" class="main-header__link">مقالات
-                      <i class="fas fa-angle-down main-header__link-icon"></i>
-                      <ul class="main-header__dropdown">
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">توسعه وب</a>
-                        </li>
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">جاوا اسکریپت</a>
-                        </li>
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">فرانت اند</a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class="main-header__item">
-                    <a href="#" class="main-header__link">پایتون
-                      <i class="fas fa-angle-down main-header__link-icon"></i>
-                      <ul class="main-header__dropdown">
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">دوره متخصص پایتون</a>
-                        </li>
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">دوره هوش مصنوعی با پایتون</a>
-                        </li>
-                        <li class="main-header__dropdown-item">
-                          <a href="#" class="main-header__dropdown-link">دوره متخصص جنگو</a>
-                        </li>
-                      </ul>
-                    </a>
-                  </li>
-                  <li class="main-header__item">
-                    <a href="#" class="main-header__link">مهارت های نرم</a>
-                  </li>
+                  
                 </ul>
               </div>
   
@@ -198,10 +123,10 @@
         <div class="courses-top-bar">
 
           <div class="courses-top-bar__right">
-            <div class="courses-top-bar__row-btn courses-top-bar__icon--active">
+            <div class="courses-top-bar__row-btn courses-top-bar__icon-parent courses-top-bar__icon--active">
               <i class="fas fa-border-all courses-top-bar__icon"></i>
             </div>
-            <div class="courses-top-bar__column-btn">
+            <div class="courses-top-bar__column-btn courses-top-bar__icon-parent">
               <i class="fas fa-align-left courses-top-bar__icon"></i>
             </div>
 
@@ -211,12 +136,12 @@
                 <i class="fas fa-angle-down courses-top-bar__selection-icon"></i>
               </span>
               <ul class="courses-top-bar__selection-list">
-                <li class="courses-top-bar__selection-item courses-top-bar__selection-item--active">مرتب سازی پیش فرض</li>
-                <li class="courses-top-bar__selection-item">مرتب سازی بر اساس محبوبیت</li>
-                <li class="courses-top-bar__selection-item">مرتب سازی بر اساس امتیاز</li>
-                <li class="courses-top-bar__selection-item">مرتب سازی بر اساس آخرین</li>
-                <li class="courses-top-bar__selection-item">مرتب سازی بر اساس ارزان ترین</li>
-                <li class="courses-top-bar__selection-item">مرتب سازی بر اساس گران ترین</li>
+                <li class="courses-top-bar__selection-item courses-top-bar__selection-item--active"dats-key="default" >مرتب سازی پیش فرض</li>
+                <li class="courses-top-bar__selection-item"dats-key="score" >مرتب سازی بر اساس امتیاز</li>
+                <li class="courses-top-bar__selection-item"dats-key="last" >مرتب سازی بر اساس آخرین</li>
+                <li class="courses-top-bar__selection-item"dats-key="first" >مرتب سازی بر اساس اولین</li>
+                <li class="courses-top-bar__selection-item"dats-key="free" >مرتب سازی بر اساس فقط رایگان</li>
+                <li class="courses-top-bar__selection-item"dats-key="money" >مرتب سازی بر اساس فقط غیر رایگان</li>
               </ul>
             </div>
           </div>
@@ -232,91 +157,11 @@
 
         <div class="courses-content">
           <div class="container">
-            <div class="row">
+            <div class="row"  id="category-courses-wrapper">
               <div class="col-4">
                 <div class="course-box">
                   <a href="#">
                     <img src="images/courses/Course-thumbnail-Algorithm-1-768x432.webp" alt="Course img" class="course-box__img" />
-                  </a>
-                  <div class="course-box__main">
-                    <a href="#" class="course-box__title">دوره پروژه محور متخصص جنگو</a>
-
-                    <div class="course-box__rating-teacher">
-                      <div class="course-box__teacher">
-                        <i class="fas fa-chalkboard-teacher course-box__teacher-icon"></i>
-                        <a href="#" class="course-box__teacher-link">رضا دولتی</a>
-                      </div>
-                      <div class="course-box__rating">
-                        <img src="images/svgs/star.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                      </div>
-                    </div>
-
-                    <div class="course-box__status">
-                      <div class="course-box__users">
-                        <i class="fas fa-users course-box__users-icon"></i>
-                        <span class="course-box__users-text">500</span>
-                      </div>
-                      <span class="course-box__price">1,000,000</span>
-                    </div>
-                  </div>
-
-                  <div class="course-box__footer">
-                    <a href="#" class="course-box__footer-link">
-                      مشاهده اطلاعات
-                      <i class="fas fa-arrow-left course-box__footer-icon"></i>
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="course-box">
-                  <a href="#">
-                    <img src="images/courses/English22-1-768x432.webp" alt="Course img" class="course-box__img" />
-                  </a>
-                  <div class="course-box__main">
-                    <a href="#" class="course-box__title">دوره پروژه محور متخصص جنگو</a>
-
-                    <div class="course-box__rating-teacher">
-                      <div class="course-box__teacher">
-                        <i class="fas fa-chalkboard-teacher course-box__teacher-icon"></i>
-                        <a href="#" class="course-box__teacher-link">رضا دولتی</a>
-                      </div>
-                      <div class="course-box__rating">
-                        <img src="images/svgs/star.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                        <img src="images/svgs/star_fill.svg" alt="rating" class="course-box__star">
-                      </div>
-                    </div>
-
-                    <div class="course-box__status">
-                      <div class="course-box__users">
-                        <i class="fas fa-users course-box__users-icon"></i>
-                        <span class="course-box__users-text">500</span>
-                      </div>
-                      <span class="course-box__price">1,000,000</span>
-                    </div>
-                  </div>
-
-                  <div class="course-box__footer">
-                    <a href="#" class="course-box__footer-link">
-                      مشاهده اطلاعات
-                      <i class="fas fa-arrow-left course-box__footer-icon"></i>
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="course-box">
-                  <a href="#">
-                    <img src="images/courses/IMAGE-1403-02-20-17_59_09_11zon-768x432.webp" alt="Course img" class="course-box__img" />
                   </a>
                   <div class="course-box__main">
                     <a href="#" class="course-box__title">دوره پروژه محور متخصص جنگو</a>
@@ -492,7 +337,10 @@
     <!-- Finish Footer -->
 
     <script src="vendor/FontAwesome5/all.min.js"></script>
+    <script src="./js/index.js" type="module"></script>
     <script src="./js/shared.js" type="module"></script>
+    <script src="./js/category.js" type="module"></script>
+
 
     
 </body>
