@@ -1,5 +1,5 @@
 import { getMe } from "./auth.js";
-import { isLogin, getUrlParam } from "./utils.js";
+import { isLogin, getUrlParam , getToken } from "./utils.js";
 
 const showUserNameInNavbar = () => {
   const navbarProfileBox = document.querySelector(".main-header__profile");
@@ -47,13 +47,15 @@ const getAndShowAllCourses = async () => {
       `
     <div class="col-4">
                 <div class="course-box">
-                  <a href="#">
+                  <a href="course.html?name=${course.shortName}">
                     <img src="./images/courses/${
                       course.cover
                     }" alt="Course img" class="course-box__img" />
                   </a>
                   <div class="course-box__main">
-                    <a href="#" class="course-box__title">${course.name}</a>
+                    <a href="course.html?name=${
+                      course.shortName
+                    }" class="course-box__title">${course.name}</a>
 
                     <div class="course-box__rating-teacher">
                       <div class="course-box__teacher">
@@ -341,7 +343,6 @@ const getAndShowCategoryCourses = async () => {
   return courses;
 };
 
-
 const insertCourseBoxHtmlTemplate = (courses, showType, parentElement) => {
   parentElement.innerHTML = "";
 
@@ -491,40 +492,53 @@ const insertCourseBoxHtmlTemplate = (courses, showType, parentElement) => {
   }
 };
 
-
 const coursesSorting = (array, filterMethod) => {
-  let outputArray = []
-  
-  switch(filterMethod) {
-    case 'free': {
-      outputArray = array.filter(course => course.price === 0)
-      break
+  let outputArray = [];
+
+  switch (filterMethod) {
+    case "free": {
+      outputArray = array.filter((course) => course.price === 0);
+      break;
     }
-    case 'money': {
-      outputArray = array.filter(course => course.price !== 0)
-      break
+    case "money": {
+      outputArray = array.filter((course) => course.price !== 0);
+      break;
     }
-    case 'first': {
-      outputArray = [...array].reverse()
-      break
+    case "first": {
+      outputArray = [...array].reverse();
+      break;
     }
-    case 'last': {
-      outputArray = array
-      break
+    case "last": {
+      outputArray = array;
+      break;
     }
-    case 'default': {
-      outputArray = array
-      break
+    case "default": {
+      outputArray = array;
+      break;
     }
     default: {
-      outputArray = array
+      outputArray = array;
     }
   }
 
-  return outputArray
-}
+  return outputArray;
+};
 
 
+const getCourseDetails = () => {
+  const courseShortName = getUrlParam("name");
+
+  fetch(`http://localhost:4000/v1/courses/${courseShortName}`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${getToken()}`,
+    },
+  })
+    .then((res) => res.json())
+    .then((course) => {
+      console.log(course);
+    });
+};
 
 export {
   showUserNameInNavbar,
@@ -537,4 +551,5 @@ export {
   getAndShowCategoryCourses,
   insertCourseBoxHtmlTemplate,
   coursesSorting,
+  getCourseDetails,
 };
