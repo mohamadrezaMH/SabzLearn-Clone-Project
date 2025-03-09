@@ -29,6 +29,14 @@ const getUrlParam = key => {
   return urlParams.get(key)
 }
 
+const searchInArray = (array, searchProperty, searchValue) => {
+  let outputArray = array.filter((item) =>
+    item[searchProperty].includes(searchValue)
+  );
+
+  return outputArray;
+};
+
 export {
   showSwal,
   saveIntoLocalStorage,
@@ -36,4 +44,5 @@ export {
   getToken,
   isLogin,
   getUrlParam,
+  searchInArray,
 };

@@ -3,6 +3,7 @@ import {
   insertCourseBoxHtmlTemplate,
   coursesSorting,
 } from "./funcs/shared.js";
+import { searchInArray } from "./funcs/utils.js";
 
 window.addEventListener("load", () => {
   getAndShowCategoryCourses().then((responseCourses) => {
@@ -20,6 +21,9 @@ window.addEventListener("load", () => {
     );
     const selectionTitleElem = document.querySelector(
       ".courses-top-bar__selection-title"
+    );
+    const coursesSearchInput = document.querySelector(
+      ".courses-top-bar__input"
     );
 
     // Show Category Courses By row showType
@@ -92,7 +96,32 @@ window.addEventListener("load", () => {
           categoryCoursesWrapper
         );
       });
+    });
 
+    // Handle search in courses
+    // console.log(coursesSearchInput);
+    coursesSearchInput.addEventListener("input", (event) => {
+      console.log(event.target.value);
+      const shownCourses = searchInArray(
+        [...responseCourses],
+        "name",
+        event.target.value
+      );
+      if (shownCourses.length) {
+        insertCourseBoxHtmlTemplate(
+          shownCourses,
+          coursesShowType,
+          categoryCoursesWrapper
+        );
+      } else {
+        categoryCoursesWrapper.innerHTML = "";
+        categoryCoursesWrapper.insertAdjacentHTML(
+            "beforeend",
+            `
+                  <div class="alert alert-danger">هیچ دوره‌ای برای جستجوی شما وجود ندارد :/</div>
+                `
+          );
+      }
     });
   });
 });
