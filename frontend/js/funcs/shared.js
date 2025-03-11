@@ -1,5 +1,5 @@
 import { getMe } from "./auth.js";
-import { isLogin, getUrlParam, getToken } from "./utils.js";
+import { isLogin, getUrlParam, getToken , showSwal } from "./utils.js";
 
 const showUserNameInNavbar = () => {
   const navbarProfileBox = document.querySelector(".main-header__profile");
@@ -761,10 +761,23 @@ const submitContactUsMsg = async () => {
     body: JSON.stringify(newContactUsInfos),
   });
 
-  const result = await res.json();
-
-  console.log(res);
-  console.log(result);
+  if (res.status === 201) {
+    showSwal(
+      "پیغام شما با موفقیت ارسال شد",
+      "success",
+      "ورود به پنل",
+      (result) => {
+        location.href = "index.html";
+      }
+    );
+  } else {
+    showSwal(
+      "مشکلی در ارسال پیغام وجود دارد \n لطفا بعدا تست کنید",
+      "error",
+      "ای بابا",
+      () => {}
+    );
+  }
 };
 
 export {
