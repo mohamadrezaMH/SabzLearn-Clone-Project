@@ -1,5 +1,5 @@
 import { getMe } from "./auth.js";
-import { isLogin, getUrlParam , getToken } from "./utils.js";
+import { isLogin, getUrlParam, getToken } from "./utils.js";
 
 const showUserNameInNavbar = () => {
   const navbarProfileBox = document.querySelector(".main-header__profile");
@@ -524,9 +524,29 @@ const coursesSorting = (array, filterMethod) => {
   return outputArray;
 };
 
-
 const getCourseDetails = () => {
   const courseShortName = getUrlParam("name");
+
+  // Select Elems From DOM
+  const $ = document;
+  const courseTitleElem = $.querySelector(".course-info__title");
+  const courseDescElem = $.querySelector(".course-info__text");
+  const courseCategoryElem = $.querySelector(".course-info__link");
+  const courseRegisterInfoElem = $.querySelector(
+    ".course-info__register-title"
+  );
+  const courseStatusElem = $.querySelector(".course-boxes__box-left--subtitle");
+  const courseSupperElem = $.querySelector(".course-boxes__box-left--support");
+  const courseLastUpdateElem = $.querySelector(
+    ".course-boxes__box-left--last-update"
+  );
+  const courseTimeElem = $.querySelector(".course-boxes__box-left--time");
+  const courseCommentsCountElem = $.querySelector(
+    ".course-info__total-comment-text"
+  );
+  const courseStudentsCountElem = $.querySelector(
+    ".course-info__total-sale-number"
+  );
 
   fetch(`http://localhost:4000/v1/courses/${courseShortName}`, {
     method: "POST",
@@ -537,6 +557,77 @@ const getCourseDetails = () => {
     .then((res) => res.json())
     .then((course) => {
       console.log(course);
+      let courseTime = 0;
+      course.sessions.map((course) => {
+        let coursesTime = course.time.slice(0, 2);
+        courseTime += Number(coursesTime);
+      });
+      courseTitleElem.innerHTML = course.name;
+      courseTimeElem.innerHTML = courseTime + " ساعت";
+      courseDescElem.innerHTML = course.description;
+      courseCategoryElem.innerHTML = course.categoryID.title;
+      courseRegisterInfoElem.insertAdjacentHTML(
+        "beforeend",
+        course.isUserRegisteredToThisCourse
+          ? "دانشجوی دوره هستید"
+          : "ثبت نام در دوره"
+      );
+      courseStatusElem.innerHTML = course.isComplete
+        ? "تکمیل شده"
+        : "در حال برگزاری";
+      courseSupperElem.innerHTML = course.support;
+      courseLastUpdateElem.innerHTML = course.updatedAt.slice(0, 10);
+      courseCommentsCountElem.innerHTML = `${course.comments.length} دیدگاه`;
+      courseStudentsCountElem.innerHTML = course.courseStudentsCount;
+
+      // Show Course Sessions
+      const sessionsWrapper = $.querySelector(".sessions-wrapper");
+
+      if (course.sessions.length) {
+        course.sessions.forEach((session, index) => {
+          sessionsWrapper.insertAdjacentHTML(
+            "beforeend",
+            ` 
+              <div class="accordion-body introduction__accordion-body">
+                <div class="introduction__accordion-right">
+                  <span class="introduction__accordion-count">${
+                    index + 1
+                  }</span>
+                  <i class="fab fa-youtube introduction__accordion-icon"></i>
+                  <a href="#" class="introduction__accordion-link">
+                    ${session.title}
+                  </a>
+                </div>
+                <div class="introduction__accordion-left">
+                  <span class="introduction__accordion-time">
+                    ${session.time}
+                  </span>
+                </div>
+              </div>
+          `
+          );
+        });
+      } else {
+        sessionsWrapper.insertAdjacentHTML(
+          "beforeend",
+          `
+              <div class="accordion-body introduction__accordion-body">
+                <div class="introduction__accordion-right">
+                  <span class="introduction__accordion-count"> -- </span>
+                  <i class="fab fa-youtube introduction__accordion-icon"></i>
+                  <a href="#" class="introduction__accordion-link">
+                    هنوز جلسه‌ای آپلود نشده
+                  </a>
+                </div>
+                <div class="introduction__accordion-left">
+                  <span class="introduction__accordion-time">
+                    00:00
+                  </span>
+                </div>
+              </div>
+          `
+        );
+      }
     });
 };
 
