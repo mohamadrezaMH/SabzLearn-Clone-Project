@@ -51,7 +51,6 @@ router
   .route("/:shortName/:sessionID")
   .get(
     authenticatedMiddleware,
-    isAdminMiddleware,
     courseController.getSessionInfo
   );
 

@@ -594,13 +594,28 @@ const getCourseDetails = () => {
                     index + 1
                   }</span>
                   <i class="fab fa-youtube introduction__accordion-icon"></i>
-                  <a href="#" class="introduction__accordion-link">
-                    ${session.title}
-                  </a>
+                  ${
+                    session.free || course.isUserRegisteredToThisCourse
+                      ? `
+                        <a href="episode.html?name=${course.shortName}&id=${session._id}" class="introduction__accordion-link">
+                          ${session.title}
+                        </a>
+                    `
+                      : `
+                        <span class="introduction__accordion-link">
+                          ${session.title}
+                        </span>
+               
+                    `
+                  }
                 </div>
                 <div class="introduction__accordion-left">
                   <span class="introduction__accordion-time">
-                    ${session.time}
+                    ${
+                      course.isUserRegisteredToThisCourse || session.free
+                        ? session.time
+                        : ` ${session.time} <i class="fa fa-lock"></i>`
+                    } 
                   </span>
                 </div>
               </div>
@@ -631,6 +646,56 @@ const getCourseDetails = () => {
     });
 };
 
+const getAndShowRelatedCourses = async () => {
+  const courseShortName = getUrlParam("name");
+
+  const courseRelatedCoursesWrapper = document.querySelector(
+    ".course-info__courses-list"
+  );
+
+  const res = await fetch(
+    `http://localhost:4000/v1/courses/related/${courseShortName}`
+  );
+  const relatedCourses = await res.json();
+  if (relatedCourses.length) {
+    relatedCourses.forEach((course) => {
+      courseRelatedCoursesWrapper.insertAdjacentHTML(
+        "beforeend",
+        `
+          <li class="course-info__courses-list-item">
+            <a href="course.html?name=${course.shortName}" class="course-info__courses-link">
+              <img src="http://localhost:4000/courses/covers/${course.cover}" alt="Course Cover" class="course-info__courses-img">
+              <span class="course-info__courses-text">
+                ${course.name}
+              </span>
+            </a>
+        </li>
+      `
+      );
+    });
+  } else {
+  }
+
+  return relatedCourses;
+};
+
+const getSessionDetails = async () => {
+  const courseShortName = getUrlParam("name");
+  const sessionID = getUrlParam("id");
+
+  const res = await fetch(
+    `http://localhost:4000/v1/courses/${courseShortName}/${sessionID}`,
+    {
+      headers: {
+        Authorization: `Bearer ${getToken()}`,
+      },
+    }
+  );
+  const session = await res.json();
+
+  return session;
+};
+
 export {
   showUserNameInNavbar,
   renderTopbarMenus,
@@ -643,4 +708,6 @@ export {
   insertCourseBoxHtmlTemplate,
   coursesSorting,
   getCourseDetails,
+  getAndShowRelatedCourses,
+  getSessionDetails,
 };
