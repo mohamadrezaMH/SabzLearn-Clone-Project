@@ -1,5 +1,5 @@
 import { getMe } from "./auth.js";
-import { isLogin, getUrlParam, getToken , showSwal } from "./utils.js";
+import { isLogin, getUrlParam, getToken, showSwal } from "./utils.js";
 
 const showUserNameInNavbar = () => {
   const navbarProfileBox = document.querySelector(".main-header__profile");
@@ -579,6 +579,7 @@ const getCourseDetails = () => {
       courseLastUpdateElem.innerHTML = course.updatedAt.slice(0, 10);
       courseCommentsCountElem.innerHTML = `${course.comments.length} دیدگاه`;
       courseStudentsCountElem.innerHTML = course.courseStudentsCount;
+      const commentsContentWrapper = $.querySelector(".comments__content");
 
       // Show Course Sessions
       const sessionsWrapper = $.querySelector(".sessions-wrapper");
@@ -643,6 +644,75 @@ const getCourseDetails = () => {
           `
         );
       }
+
+      // Show Course Comments
+      course.comments.forEach((comment) => {
+        commentsContentWrapper.insertAdjacentHTML(
+          "beforeend",
+          `
+            <div class="comments__item">
+              <div class="comments__question">
+                  <div class="comments__question-header">
+                      <div class="comments__question-header-right">
+                          <span class="comments__question-name comment-name">${
+                            comment.creator.name
+                          }</span>
+                          <span class="comments__question-status comment-status">
+                          (${
+                            comment.creator.role === "USER" ? "دانشجو" : "مدرس"
+                          })
+                              </span>
+                          <span class="comments__question-date comment-date">${comment.createdAt.slice(
+                            0,
+                            10
+                          )}</span>
+                      </div>
+                      <div class="comments__question-header-left">
+                          <a class="comments__question-header-link comment-link" href="#">پاسخ</a>
+                      </div>
+                  </div>
+                  <div class="comments__question-text">
+                     
+                      <p class="comments__question-paragraph comment-paragraph">
+                        ${comment.body}
+                      </p>
+                  </div>
+              </div>
+              ${
+                comment.answerContent
+                  ? `
+                    <div class="comments__ansewr">
+                        <div class="comments__ansewr-header">
+                            <div class="comments__ansewr-header-right">
+                                <span class="comments__ansewr-name comment-name">
+                               ${comment.answerContent.creator.name}
+                                    </span>
+                                <span class="comments__ansewr-staus comment-status">
+                                  (${
+                                    comment.creator.role === "USER"
+                                      ? "دانشجو"
+                                      : "مدرس"
+                                  })
+                                </span>
+                                <span class="comments__ansewr-date comment-date">1401/04/21</span>
+                            </div>
+                            <div class="comments__ansewr-header-left">
+                                <a class="comments__ansewr-header-link comment-link" href="#">پاسخ</a>
+                            </div>
+                        </div>
+                        <div class="comments__ansewr-text">
+                            <p class="comments__ansewr-paragraph comment-paragraph">
+                              ${comment.answerContent.body}
+                            </p>
+                        </div>
+                    </div>
+                  `
+                  : ""
+              }
+            </div>
+        `
+        );
+      });
     });
 };
 
@@ -739,7 +809,6 @@ const getSessionDetails = async () => {
   return responseData;
 };
 
-
 const submitContactUsMsg = async () => {
   const nameInputElem = document.querySelector("#name");
   const emailInputElem = document.querySelector("#email");
@@ -780,22 +849,21 @@ const submitContactUsMsg = async () => {
   }
 };
 
-
 const createNewNewsLetter = async () => {
-  const newsLetterInput = document.querySelector('#news-letter-input')
+  const newsLetterInput = document.querySelector("#news-letter-input");
 
   console.log(newsLetterInput);
   const newNewsLetterEmailObj = {
-    email: newsLetterInput.value.trim()
-  }
+    email: newsLetterInput.value.trim(),
+  };
 
   const res = await fetch(`http://localhost:4000/v1/newsletters`, {
-    method: 'POST',
+    method: "POST",
     headers: {
-      'Content-Type': 'application/json'
+      "Content-Type": "application/json",
     },
-    body: JSON.stringify(newNewsLetterEmailObj)
-  })
+    body: JSON.stringify(newNewsLetterEmailObj),
+  });
 
   console.log(res);
 
@@ -807,7 +875,7 @@ const createNewNewsLetter = async () => {
       () => {}
     );
   }
-}
+};
 
 export {
   showUserNameInNavbar,

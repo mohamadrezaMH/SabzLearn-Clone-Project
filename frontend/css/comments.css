@@ -12,7 +12,7 @@
 }
 .comments__header-icon-content {
   background-color: var(--primary-color);
-  color: var(--white-color);
+  color: var(--primary-color);
   width: 4rem;
   height: 4rem;
   display: flex;
@@ -22,14 +22,16 @@
 }
 .comments__header-icon {
   font-size: 2.5rem;
+  color: white;
 }
 .comments__header-title {
   margin-right: 1rem;
+  color: white;
 }
 .comments__item {
-  background-color: #f9fafdd8;
+  background-color: #69696985;
   border-radius: 1rem;
-  border: 1px dashed #ccc;
+  border: 1px dashed #949494;
   padding: 3rem;
   margin-bottom: 3rem;
 }
@@ -37,16 +39,18 @@
 .comments__ansewr-header {
   display: flex;
   justify-content: space-between;
+  color: white;
 }
 .comments__question-header-right,
 .comments__ansewr-header-right {
   display: flex;
   align-items: center;
+  color: white;
 }
 .comment-name {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--dark-color);
+  color: var(--white-color);
 }
 .comment-status {
   display: flex;
@@ -61,7 +65,7 @@
 }
 .comment-date {
   font-size: 1.5rem;
-  color: #adb5bd;
+  color: #d0d4d8;
 }
 .comment-link {
   font-size: 1.2rem;
@@ -70,13 +74,14 @@
   padding: 0.5rem 1.2rem;
   border-radius: 0.3rem;
   background-color: #ffffffb7;
+  color: black;
 }
 .comments__question-text {
   margin-top: 1rem;
 }
 .comment-paragraph {
   font-size: 1.3rem;
-  color: #7d7e7f;
+  color: #d1d1d1;
 }
 .comments__ansewr {
   border: 1px dashed #cccccc;
