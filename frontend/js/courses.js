@@ -1,12 +1,12 @@
 import { getAllCourses, insertCourseBoxHtmlTemplate } from "./funcs/shared.js";
 import { paginateItems, getUrlParam, addParamToUrl } from "./funcs/utils.js";
 
-window.addParamToUrl = addParamToUrl
+window.addParamToUrl = addParamToUrl  //binding
 
 window.addEventListener("load", () => {
   getAllCourses().then((courses) => {
-    const coursesPagintionWrapperElem =
-      document.querySelector("#courses-pagintion");
+    const coursesPaginationWrapperElem =
+      document.querySelector("#courses-pagination");
     const coursesWrapperElem = document.querySelector("#courses-wrapper");
 
     const currentPage = getUrlParam("page");
@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
     let shownCourses = paginateItems(
       [...courses],
       3,
-      coursesPagintionWrapperElem,
+      coursesPaginationWrapperElem,
       currentPage
     );
     insertCourseBoxHtmlTemplate([...shownCourses], "row", coursesWrapperElem);

@@ -343,7 +343,11 @@ const getAndShowCategoryCourses = async () => {
   return courses;
 };
 
-const insertCourseBoxHtmlTemplate = (courses, showType, parentElement) => {
+const insertCourseBoxHtmlTemplate = (
+  courses,
+  showType = "row",
+  parentElement
+) => {
   parentElement.innerHTML = "";
 
   if (showType === "row") {
@@ -1033,7 +1037,6 @@ const submitComment = async () => {
   }
 };
 
-
 const showAllCoursesInCoursesPage = async () => {
   const coursesWrapperElem = document.querySelector("#courses-wrapper");
 
@@ -1112,6 +1115,14 @@ const showAllCoursesInCoursesPage = async () => {
   return courses;
 };
 
+const getAllCourses = async () => {
+  const coursesWrapperElem = document.querySelector("#courses-wrapper");
+
+  const res = await fetch(`http://localhost:4000/v1/courses`);
+  const courses = await res.json();
+
+  return courses;
+};
 
 export {
   showUserNameInNavbar,
@@ -1132,4 +1143,5 @@ export {
   globalSearch,
   submitComment,
   showAllCoursesInCoursesPage,
+  getAllCourses,
 };
