@@ -646,7 +646,7 @@ const getCourseDetails = () => {
       }
 
       // Show Course Comments
-      if (course.sessions.length) {
+      if (course.comments.length) {
         course.comments.forEach((comment) => {
           commentsContentWrapper.insertAdjacentHTML(
             "beforeend",
@@ -885,19 +885,22 @@ const createNewNewsLetter = async () => {
   }
 };
 
-
 const globalSearch = async () => {
-  const searchValue = getUrlParam('value')
-  const coursesSearchResultWrapper = document.querySelector('#courses-container')
-  const articlesSearchResultWrapper = document.querySelector('#articles-wrapper')
+  const searchValue = getUrlParam("value");
+  const coursesSearchResultWrapper =
+    document.querySelector("#courses-container");
+  const articlesSearchResultWrapper =
+    document.querySelector("#articles-wrapper");
 
-  const res = await fetch(`http://localhost:4000/v1/search/${searchValue}`)
-  const data = await res.json()
+  const res = await fetch(`http://localhost:4000/v1/search/${searchValue}`);
+  const data = await res.json();
 
-  console.log(data)
-  if(data.allResultCourses.length){
-    data.allResultCourses.forEach(course => {
-    coursesSearchResultWrapper.insertAdjacentHTML('beforeend', `
+  console.log(data);
+  if (data.allResultCourses.length) {
+    data.allResultCourses.forEach((course) => {
+      coursesSearchResultWrapper.insertAdjacentHTML(
+        "beforeend",
+        `
       <div class="col-4">
         <div class="course-box">
           <a href="course.html?name=${course.shortName}">
@@ -927,14 +930,10 @@ const globalSearch = async () => {
             <div class="course-box__status">
               <div class="course-box__users">
                 <i class="fas fa-users course-box__users-icon"></i>
-                <span class="course-box__users-text">${
-                  course.registers
-                }</span>
+                <span class="course-box__users-text">${course.registers}</span>
               </div>
               <span class="course-box__price">${
-                course.price === 0
-                  ? "رایگان"
-                  : course.price.toLocaleString()
+                course.price === 0 ? "رایگان" : course.price.toLocaleString()
               }</span>
             </div>
           </div>
@@ -948,8 +947,9 @@ const globalSearch = async () => {
 
         </div>
       </div>
-    `)
-  })
+    `
+      );
+    });
   } else {
     coursesSearchResultWrapper.insertAdjacentHTML(
       "beforeend",
@@ -957,9 +957,11 @@ const globalSearch = async () => {
     );
   }
 
-  if(data.allResultArticles.length){
-    data.allResultArticles.forEach(article => {
-      articlesSearchResultWrapper.insertAdjacentHTML('beforeend', `
+  if (data.allResultArticles.length) {
+    data.allResultArticles.forEach((article) => {
+      articlesSearchResultWrapper.insertAdjacentHTML(
+        "beforeend",
+        `
             <div class="col-4">
               <div class="article-card">
                 <div class="article-card__header">
@@ -978,8 +980,9 @@ const globalSearch = async () => {
                 </div>
               </div>
             </div>
-      `)
-    })
+      `
+      );
+    });
   } else {
     articlesSearchResultWrapper.insertAdjacentHTML(
       "beforeend",
@@ -987,8 +990,48 @@ const globalSearch = async () => {
     );
   }
 
-  return data
-}
+  return data;
+};
+
+const submitComment = async () => {
+  const commentTextareaElem = document.querySelector(
+    ".comments__score-input-respond"
+  );
+  const commentScoreElem = document.querySelector("#comment-score");
+  let score = 5;
+  let courseShortName = getUrlParam("name");
+
+  commentScoreElem.addEventListener(
+    "change",
+    (event) => (score = event.target.value)
+  );
+
+  const newCommentInfos = {
+    body: commentTextareaElem.value.trim(),
+    courseShortName,
+    score,
+  };
+
+  const res = await fetch(`http://localhost:4000/v1/comments`, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${getToken()}`,
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(newCommentInfos),
+  });
+
+  console.log(res);
+
+  if (res.ok) {
+    showSwal(
+      "کامنت مورد نظر شما با موفقیت ثبت شد",
+      "success",
+      "خیلی هم عالی",
+      () => {}
+    );
+  }
+};
 
 export {
   showUserNameInNavbar,
@@ -1007,4 +1050,5 @@ export {
   submitContactUsMsg,
   createNewNewsLetter,
   globalSearch,
+  submitComment,
 };
