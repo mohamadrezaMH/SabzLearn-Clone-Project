@@ -689,7 +689,7 @@ const getCourseDetails = () => {
                                     </span>
                                 <span class="comments__ansewr-staus comment-status">
                                   (${
-                                    comment.creator.role === "USER"
+                                    comment.answerContent.creator.role === "USER"
                                       ? "دانشجو"
                                       : "مدرس"
                                   })
