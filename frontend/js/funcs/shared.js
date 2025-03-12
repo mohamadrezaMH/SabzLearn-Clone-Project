@@ -895,7 +895,8 @@ const globalSearch = async () => {
   const data = await res.json()
 
   console.log(data)
-  data.allResultCourses.forEach(course => {
+  if(data.allResultCourses.length){
+    data.allResultCourses.forEach(course => {
     coursesSearchResultWrapper.insertAdjacentHTML('beforeend', `
       <div class="col-4">
         <div class="course-box">
@@ -949,29 +950,42 @@ const globalSearch = async () => {
       </div>
     `)
   })
+  } else {
+    coursesSearchResultWrapper.insertAdjacentHTML(
+      "beforeend",
+      `<div class="alert alert-danger">هیچ دوره ای برای جستجوی شما وجود ندارد</div>`
+    );
+  }
 
-  data.allResultArticles.forEach(article => {
-    articlesSearchResultWrapper.insertAdjacentHTML('beforeend', `
-          <div class="col-4">
-            <div class="article-card">
-              <div class="article-card__header">
-                <a href="#" class="article-card__link-img">
-                  <img src=http://localhost:4000/courses/covers/${article.cover} class="article-card__img" alt="Article Cover" />
-                </a>
-              </div>
-              <div class="article-card__content">
-                <a href="#" class="article-card__link">
-                  ${article.title}
-                </a>
-                <p class="article-card__text">
-                ${article.description}
-                </p>
-                <a href="#" class="article-card__btn">بیشتر بخوانید</a>
+  if(data.allResultArticles.length){
+    data.allResultArticles.forEach(article => {
+      articlesSearchResultWrapper.insertAdjacentHTML('beforeend', `
+            <div class="col-4">
+              <div class="article-card">
+                <div class="article-card__header">
+                  <a href="#" class="article-card__link-img">
+                    <img src=http://localhost:4000/courses/covers/${article.cover} class="article-card__img" alt="Article Cover" />
+                  </a>
+                </div>
+                <div class="article-card__content">
+                  <a href="#" class="article-card__link">
+                    ${article.title}
+                  </a>
+                  <p class="article-card__text">
+                  ${article.description}
+                  </p>
+                  <a href="#" class="article-card__btn">بیشتر بخوانید</a>
+                </div>
               </div>
             </div>
-          </div>
-    `)
-  })
+      `)
+    })
+  } else {
+    articlesSearchResultWrapper.insertAdjacentHTML(
+      "beforeend",
+      `<div class="alert alert-danger">هیچ مقاله ای برای جستجوی شما وجود ندارد</div>`
+    );
+  }
 
   return data
 }
