@@ -3,7 +3,7 @@ import {
   insertCourseBoxHtmlTemplate,
   coursesSorting,
 } from "./funcs/shared.js";
-import { searchInArray } from "./funcs/utils.js";
+import { searchInArray , paginateItems } from "./funcs/utils.js";
 
 window.addEventListener("load", () => {
   getAndShowCategoryCourses().then((responseCourses) => {
@@ -123,5 +123,14 @@ window.addEventListener("load", () => {
           );
       }
     });
+
+    // Handle Pagination
+    const coursesPaginationWrapper = document.querySelector(
+      ".courses__pagination-list"
+    );
+    console.log(
+      paginateItems([...responseCourses], 1, coursesPaginationWrapper, 1)
+    );
+    
   });
 });
