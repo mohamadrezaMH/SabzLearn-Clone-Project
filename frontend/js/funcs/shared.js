@@ -894,6 +894,7 @@ const globalSearch = async () => {
   const res = await fetch(`http://localhost:4000/v1/search/${searchValue}`)
   const data = await res.json()
 
+  console.log(data)
   data.allResultCourses.forEach(course => {
     coursesSearchResultWrapper.insertAdjacentHTML('beforeend', `
       <div class="col-4">
