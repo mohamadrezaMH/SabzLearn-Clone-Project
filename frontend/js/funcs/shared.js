@@ -303,7 +303,7 @@ const getAndShowNavbarMenus = async () => {
       "beforeend",
       `
     <li class="main-header__item">
-    <a href=category.html?cat=${menu.href} class="main-header__link">${
+    <a href=category.html?cat=${menu.href}$page=1 class="main-header__link">${
         menu.title
       }
       ${

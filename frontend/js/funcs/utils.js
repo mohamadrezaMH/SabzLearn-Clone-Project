@@ -37,6 +37,16 @@ const searchInArray = (array, searchProperty, searchValue) => {
   return outputArray;
 };
 
+const addParamToUrl = (param, value) => {
+  console.log(param, value);
+  let url = new URL(location.href);
+  let searchParams = url.searchParams;
+
+  searchParams.set(param, value);
+  url.search = searchParams.toString();
+  location.href = url.toString();
+};
+
 const paginateItems = (
   array,
   itemsPerPage,
@@ -54,9 +64,16 @@ const paginateItems = (
       "beforeend",
       `
         <li class="courses__pagination-item">
-          <a href="#" class="courses__pagination-link">
+        ${
+          i === Number(currentPage)
+            ? `<a onclick="addParamToUrl('page', ${i})" class="courses__pagination-link courses__pagination-link--active">
             ${i}
-          </a>
+          </a>`
+            : `<a onclick="addParamToUrl('page', ${i})" class="courses__pagination-link">
+            ${i}
+          </a>`
+        }
+         
         </li>
     `
     );
@@ -73,4 +90,5 @@ export {
   getUrlParam,
   searchInArray,
   paginateItems,
+  addParamToUrl,
 };

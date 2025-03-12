@@ -3,7 +3,14 @@ import {
   insertCourseBoxHtmlTemplate,
   coursesSorting,
 } from "./funcs/shared.js";
-import { searchInArray , paginateItems } from "./funcs/utils.js";
+import {
+  searchInArray,
+  paginateItems,
+  getUrlParam,
+  addParamToUrl,
+} from "./funcs/utils.js";
+
+window.addParamToUrl = addParamToUrl;
 
 window.addEventListener("load", () => {
   getAndShowCategoryCourses().then((responseCourses) => {
@@ -116,11 +123,11 @@ window.addEventListener("load", () => {
       } else {
         categoryCoursesWrapper.innerHTML = "";
         categoryCoursesWrapper.insertAdjacentHTML(
-            "beforeend",
-            `
+          "beforeend",
+          `
                   <div class="alert alert-danger">هیچ دوره‌ای برای جستجوی شما وجود ندارد :/</div>
                 `
-          );
+        );
       }
     });
 
@@ -128,9 +135,17 @@ window.addEventListener("load", () => {
     const coursesPaginationWrapper = document.querySelector(
       ".courses__pagination-list"
     );
-    console.log(
-      paginateItems([...responseCourses], 1, coursesPaginationWrapper, 1)
+    const currentPage = getUrlParam("page");
+    const shownCourses = paginateItems(
+      [...responseCourses],
+      3,
+      coursesPaginationWrapper,
+      currentPage
     );
-    
+    insertCourseBoxHtmlTemplate(
+      [...shownCourses],
+      coursesShowType,
+      categoryCoursesWrapper
+    );
   });
 });
